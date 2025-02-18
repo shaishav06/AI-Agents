@@ -1,0 +1,10 @@
+#!/media/shaishav/f1dc6905-dee0-4459-856e-84be8962d442/shaishav/Learning/Projects/AI Agent /Appointment Agent/venv/bin/python3
+
+import docx2txt
+
+if __name__ == '__main__':
+    import sys
+    args = docx2txt.process_args()
+    text = docx2txt.process(args.docx, args.img_dir)
+    output = getattr(sys.stdout, 'buffer', sys.stdout)
+    output.write(text.encode('utf-8'))
