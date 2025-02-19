@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/media/shaishav/f1dc6905-dee0-4459-856e-84be8962d442/shaishav/Learning/Projects/AI Agent /Research Agent/venv/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pyright.langserver import entrypoint
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(entrypoint())
