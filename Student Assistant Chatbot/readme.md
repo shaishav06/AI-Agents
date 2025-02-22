@@ -72,7 +72,8 @@ streamlit run app.py
 ---
 
 ## 🎥 Landing Page Screenshot
-![/media/shaishav/f1dc6905-dee0-4459-856e-84be8962d442/shaishav/Learning/Projects/AI Agent /AI-Agents/Student Assistant Chatbot/Screenshot from 2025-02-22 14-44-38.png](/media/shaishav/f1dc6905-dee0-4459-856e-84be8962d442/shaishav/Learning/Projects/AI Agent /AI-Agents/Student Assistant Chatbot/Screenshot from 2025-02-22 14-44-38.png)
+
+![Landing Page](https://raw.githubusercontent.com/shaishav06/AI-Agents/main/Student%20Assistant%20Chatbot/Screenshot%20from%202025-02-22%2014-44-38.png)
 
 ---
 
