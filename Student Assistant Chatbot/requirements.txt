@@ -1,0 +1,5 @@
+streamlit
+smolagent
+groq
+google-generativeai
+python-dotenv
