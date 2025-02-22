@@ -87,7 +87,7 @@ streamlit run app.py
 ## 🤝 Contributing
 Feel free to submit **issues** or **pull requests** to enhance the Student Assistant Agent.
 
-📧 Contact: your-email@example.com
+📧 Contact: shaishavsurati06@gmail.com
 
 ---
 
