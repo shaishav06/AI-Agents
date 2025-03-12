@@ -63,6 +63,7 @@ streamlit run app.py
 Each agent has its own directory with specific **installation & usage** instructions.
 
 ---
+---
 
 ## 🤝 **How to Contribute**
 We welcome contributions! Follow these steps to contribute:
