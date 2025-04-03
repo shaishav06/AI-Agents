@@ -1,0 +1,6 @@
+fastapi
+uvicorn 
+langchain 
+e2b 
+ollama 
+google-generativeai
