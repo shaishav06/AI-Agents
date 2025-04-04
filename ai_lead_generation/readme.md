@@ -98,7 +98,7 @@ The app will automatically create the following columns in your Google Sheet:
 - Notes
 
 ## License
-
+---
 MIT
 
 ## Acknowledgements
