@@ -1,111 +1,120 @@
-# MCP Agents
-
-> ⚙️ Modular AI Agents inspired by Multi-Cognitive Process (MCP) Architectures  
-> 👨‍💻 Created by [Shaishav Surati](https://www.linkedin.com/in/shaishavsurati/)
 
 ---
 
-## 🧠 About the Project
+# MCP Agents
 
-**MCP Agents** is a project aimed at exploring, implementing, and experimenting with advanced agent-based architectures. These agents are designed to simulate multiple cognitive processes — such as memory, reasoning, planning, learning, and interaction — working in tandem to complete complex tasks autonomously.
+> ⚙️ **Modular AI Agents Inspired by Multi-Cognitive Process (MCP) Architectures**
+> 👨‍💻 Built by [Shaishav Surati](https://www.linkedin.com/in/shaishavsurati/)
 
-This project is structured as a collection of **independent MCP Agent implementations**, each designed for different goals, domains, or cognitive capabilities.
+---
+
+## 🧠 Overview
+
+**MCP Agents** is a research-driven initiative exploring the design and development of advanced, modular AI agents modeled on **multi-cognitive process (MCP)** architectures. These agents integrate various cognitive capabilities — such as **memory**, **reasoning**, **planning**, **learning**, and **interaction** — to autonomously perform complex, multi-step tasks.
+
+Each implementation within this repository is self-contained, tailored to a specific cognitive function or domain use case, and designed to be modular, extensible, and interoperable.
 
 ---
 
 ## 📁 Repository Structure
 
-Each folder inside this repository is a self-contained MCP Agent project with its own configuration, use case, and dependencies.
-
-```
-
+```bash
 /MCP-Agents/
 │
-├── planner-agent/         # Agent focused on planning & task decomposition
-├── memory-agent/          # Agent with long-term & short-term memory modules
-├── researcher-agent/      # Research-focused multi-tool agent (e.g. search + summarization)
-├── autonomous-agent/      # Fully autonomous agent with recursive goals
-├── README.md              # This file
+├── planner-agent/         # Specializes in planning, scheduling, and task decomposition
+├── memory-agent/          # Incorporates both long-term and short-term memory components
+├── researcher-agent/      # Research-focused agent using search, summarization, and citation tools
+├── autonomous-agent/      # Fully autonomous agent with recursive goal-setting and self-evaluation
+├── README.md              # Project documentation
+```
 
-````
-
----
-
-## 💡 Key Concepts
-
-- **Multi-Cognitive Architecture**: Inspired by how the human brain uses multiple cognitive faculties together to solve tasks.
-- **Tool-Use**: Agents can access tools like APIs, databases, or browsers to enhance reasoning.
-- **Modularity**: Each agent is modular, allowing components (e.g. memory, reasoning) to be reused or extended.
-- **Autonomy**: Some agents are fully autonomous — they can think, act, and learn in loops.
+Each directory contains a complete agent project with its own dependencies, configurations, and README instructions.
 
 ---
 
-## 🚀 How to Run
+## 💡 Core Principles
 
-Each agent has its own README with instructions. But in general, you can follow:
+* **Multi-Cognitive Architecture**
+  Inspired by cognitive science, MCP agents simulate the parallel functioning of distinct cognitive faculties.
+
+* **Tool-Augmented Reasoning**
+  Agents can integrate with APIs, vector databases, browsers, or developer tools to extend their capabilities.
+
+* **Modular Design**
+  Components such as memory, reasoning, and planning modules are designed to be interchangeable and reusable.
+
+* **Autonomy & Learning Loops**
+  Agents can operate in iterative loops — perceiving, reasoning, acting, and adapting based on outcomes.
+
+---
+
+## 🚀 Getting Started
+
+To run any agent module:
 
 ```bash
 cd planner-agent
 pip install -r requirements.txt
 python main.py
-````
+```
+
+Each agent directory contains its own README file with detailed setup instructions.
 
 ---
 
 ## 🧰 Tech Stack
 
-* Python 3.10+
-* LangChain / CrewAI / Custom Frameworks
-* OpenAI / Gemini / Ollama / Local LLMs
-* Redis / ChromaDB for Memory
-* Pinecone / Weaviate (optional)
-* FastAPI for APIs (some agents)
-* Docker (optional)
+* **Programming**: Python 3.10+
+* **Frameworks**: LangChain, CrewAI, or custom-built orchestrators
+* **LLMs**: OpenAI, Gemini, Ollama, and other local LLMs
+* **Memory Stores**: Redis, ChromaDB; optional: Pinecone, Weaviate
+* **APIs**: FastAPI (for service-based agents)
+* **Containerization**: Docker (optional for production)
 
 ---
 
-## 📦 Use Cases
+## 📦 Applications
 
-* Task planning & automation
-* Autonomous research and summarization
-* Workflow agents for business ops
-* AI agents for software engineering
-* Agents with personal memory for virtual assistants
-
----
-
-## 🧠 Inspirations
-
-* BabyAGI, AutoGPT, Agent-LLM
-* ReAct + CoT Reasoning Patterns
-* OpenAI’s Function Calling and Agent Frameworks
-* Cognitive Science Research
+* Autonomous task planning and workflow automation
+* Research agents for market intelligence or literature reviews
+* Workflow agents for business operations
+* Developer assistants for engineering and debugging
+* Memory-augmented virtual assistants with context retention
 
 ---
 
-## 🙋 Author
+## 🧠 Inspirations & Methodologies
 
-Built by **Shaishav Surati**,
-Founder & CEO, [Chaitanya AI](https://chaitanyaai.in/)
+This project draws from several foundational systems and research concepts:
 
-> Passionate about building next-gen AI solutions that work like smart humans — autonomous, modular, and intelligent.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-Feel free to fork, experiment, and build your own agents!
+* [BabyAGI](https://github.com/yoheinakajima/babyagi), [AutoGPT](https://github.com/Torantulino/Auto-GPT), [Agent-LLM](https://github.com/Josh-XT/Agent-LLM)
+* ReAct, Chain-of-Thought (CoT) prompting, and function-calling paradigms
+* OpenAI’s emerging agent architectures and tool-use frameworks
+* Research in distributed cognition and artificial general intelligence (AGI)
 
 ---
 
-## 🤝 Contributions
+## 👨‍💻 Author
 
-Open to contributions, feedback, and collaborations.
-Let’s build the future of agent-based AI systems together.
+Crafted by **Shaishav Surati**,
+Founder & CEO at [Chaitanya AI](https://chaitanyaai.in)
 
-📬 Reach me: [shaishav@chaitanyaai.in](mailto:shaishav@chaitanyaai.in)
+> At Chaitanya AI, we are committed to engineering intelligent systems that function like smart humans — modular, adaptive, and autonomous.
+
+---
+
+## 📜 License
+
+Licensed under the **MIT License**.
+Feel free to fork, experiment, and create your own modular agents using this framework.
+
+---
+
+## 🤝 Let’s Collaborate
+
+We welcome contributions, discussions, and partnerships to advance the field of agent-based AI.
+
+📬 Email: [shaishav@chaitanyaai.in](mailto:shaishav@chaitanyaai.in)
 📅 Schedule a call: [Calendly](https://calendly.com/chaitanyaaillp/tell-us-your-requirements)
 
 ---
-
