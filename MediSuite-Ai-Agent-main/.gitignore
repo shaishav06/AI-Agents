@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Tesseract OCR temporary files
+tessdata/
+
+# PDF and output files
+*.pdf
+
+# Poppler temporary files
+*.ppm
+*.pbm
